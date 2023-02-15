@@ -30,7 +30,7 @@ header{
     color: #151515;
     padding-top: 32px;
     margin: 16px;
-    
+    /* max-width: 342px; */
 
 }
 
@@ -43,7 +43,7 @@ header{
     color: #444444;
     padding-top: 32px;
     margin: 16px;
-
+    /* max-width: 343px; */
 }
 
 .header-button{
@@ -83,7 +83,15 @@ header{
 main{
     display: flex;
     flex-direction: column;
-    /* padding-top: 144px; */
+    align-items: center;
+}
+
+section{
+    max-width: 343px;
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 
 .grid-1{
@@ -101,6 +109,7 @@ main{
     color: #151515;
     padding-top: 25px;
     margin: 16px;
+    max-width: 343px;
 }
 
 .wander-p{
