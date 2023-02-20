@@ -6,6 +6,11 @@ body{
     margin: 0 auto;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .div-left{
     display: flex;
@@ -64,6 +69,10 @@ body{
     
 }
 
+.map-tab{
+    display: none;
+}
+
 .our-h1{
     font-family: 'Big Shoulders Display', cursive;
     font-style: normal;
@@ -105,8 +114,6 @@ footer{
     display: flex;
     flex-direction: column;
     background: #D5966C;
-    width:375px;
-    height: 336px;
     gap: 49px;
     padding-top: 30px;
     box-sizing: border-box;
@@ -135,4 +142,44 @@ footer{
 .icons{
     background: #D5966C;
     border: none;
+}
+
+@media(min-width: 768px){
+
+.map-mob{
+    display: none;
+
+}   
+
+.map-tab{
+    display: block;
+}
+
+.top-div{
+    display: flex;
+}
+
+.div-our{
+    width: 768px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.opened-p{
+    width: 398px;
+}
+
+.div-left{
+    left: 65px;
+    /* positcion */
+}
+
+footer{
+    flex-direction: row;
+}
+
+.modern-p{
+    width: 281px;
+}
+
 }
