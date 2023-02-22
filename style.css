@@ -26,6 +26,10 @@ header{
     display: none;
 }
 
+.black-div{
+    display: none;
+}
+
 .modern-h1{
     font-family: 'Big Shoulders Display',sans-serif;
     font-style: normal;
@@ -287,7 +291,6 @@ padding-top: 120px;
 
    .modern-h1{
     max-width: 339px;
-    height: 110px;
     position: absolute;
     top: 144px;
     left: 370px;
@@ -397,3 +400,51 @@ section{
 
 }
 
+@media(min-width: 1439px){
+   
+.hero-tab{
+    display: none;
+}    
+
+.hero-des{
+    display: block;}
+
+.black-div{
+    display: block;
+    background-color: #151515;
+    width: 449px;
+    height: 799px;
+}
+
+.two-div{
+    display: flex;
+}
+}
+
+@media(min-width: 1439px){
+
+.location-div{
+    left: 900px;
+    top: 370px;
+}  
+
+.header-p{
+    left: 900px;
+    top: 190px;
+}
+
+.footer-container{
+    justify-content: space-around;
+}
+
+.modern-h1{
+    top: 190px;
+    left: 225px;
+    background-image:
+    linear-gradient(90deg,white 210px,black 50% );
+    -webkit-background-clip: text ;
+    color: transparent;
+ 
+}
+
+}

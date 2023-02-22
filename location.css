@@ -144,7 +144,15 @@ footer{
     border: none;
 }
 
+.map-des{
+    display: none;
+}
+
 @media(min-width: 768px){
+
+section{
+    width: 100%;
+}
 
 .map-mob{
     display: none;
@@ -153,16 +161,20 @@ footer{
 
 .map-tab{
     display: block;
+    width: 100%;
 }
+
 
 .top-div{
     display: flex;
+    width: 100%;
 }
 
 .div-our{
     width: 768px;
     flex-direction: row;
     justify-content: space-around;
+    width: 100%;
 }
 
 .opened-p{
@@ -176,10 +188,53 @@ footer{
 
 footer{
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .modern-p{
     width: 281px;
+}
+
+}
+
+@media(min-width: 1439px){
+
+ .map-tab{
+    display: none;
+ }   
+
+.map-des{
+    display: block;
+    width: 100%;
+}
+
+.our-h1{
+    font-size: 70px;
+    line-height: 70px;
+    width: 349px;
+}
+
+ .our-h3{
+    font-size: 36px;
+    line-height: 36px;
+ }   
+
+ .newpost-p{
+    font-size: 22px;
+    line-height: 32px;
+ }
+
+.opened-p{
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.modern-p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.logo-dark{
+    width: 160px;
 }
 
 }
